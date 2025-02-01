@@ -30,8 +30,47 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="bg-secondary">
+        <div class="container mx-auto">
+            <nav class="font-sora">
+                <div class="navbar py-4">
+                    <div class="navbar-start">
+                        <a href="index.html" class="text-2xl font-bold">Meowees</a>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
+                            <li><a class="text-xl">Find a pet</a></li>
+                            <li><a class="text-xl">Breeds</a></li>
+                            <li><a class="text-xl">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end hidden lg:flex gap-3">
+                        <button class="btn btn-ghost px-1 text-xl font-normal">
+                            <i class="fa-regular fa-bell"></i>
+                        </button>
+                        <button class="btn btn-ghost px-1 text-xl font-normal">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <button
+                            class="btn btn-outline border-primary text-black text-xl font-normal rounded-lg">Login</button>
+                        <button class="btn bg-primary text-xl font-normal rounded-lg">Register</button>
+                    </div>
+                    <div class="lg:hidden navbar-end">
+                        <div class="dropdown dropdown-left dropdown-bottom">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <i class="fa-solid fa-bars text-xl"></i>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] w-32 p-2 shadow">
+                                <li><a>Find a pet</a></li>
+                                <li><a>Breeds</a></li>
+                                <li><a>Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
 
